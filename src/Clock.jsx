@@ -23,7 +23,7 @@ class Clock extends Component {
     return(
       <div className="clock">
     <div className="clock__location">
-        `${props.location}`
+        {props.location}
     </div>
     <div className="clock__time">
         {this.state.time}
